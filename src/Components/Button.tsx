@@ -16,6 +16,7 @@ const variantStyles = {
     secondary: "bg-purple-400 text-purple-600"
 };
 
+
 const sizeStyles = {
     sm: "px-2 py-1 text-sm",
     md: "px-4 py-2 text-md",
