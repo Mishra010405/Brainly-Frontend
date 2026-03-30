@@ -6,7 +6,8 @@ import { PlusIcon } from './Icons/PlusIcons.tsx';
 function App() {
   return (
     <>
-      <Button startIcon={<Pnt" onClick={() => {}} />
+      <Button startIcon={<PlusIcon/>}  variant="primary" size="md" text="Share" onClick={() => {}} />
+      <Button variant="secondary" size="md" text="Add Content" onClick={() => {}} />
 
     </>
   );
