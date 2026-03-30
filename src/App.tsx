@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Button startIcon={<PlusIcon/>}  variant="primary" size="md" text="Share" onClick={() => {}} />
-      <Buttdd Content" onClick={() => {}} />
+      <Button variant="secondary" size="md" text="Add Content" onClick={() => {}} />
 
     </>
   );
