@@ -1,9 +1,14 @@
-interface IconProps {
-  size?: number;
-  className?: string;
+interface PlusIconProps {
+  size: 'sm' | 'md' | 'lg';
 }
 
-export const PlusIcon = (props: IconProps) => {
+const sizeVariants = {
+  sm: 'size-2',
+  md: 'size-4',
+  lg: 'size-6'
+};
+
+export function PlusIcon({ size }: PlusIconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -11,9 +16,7 @@ export const PlusIcon = (props: IconProps) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={props.className || "size-6"}
-      width={props.size}
-      height={props.size}
+      className={sizeVariants[size]}
     >
       <path
         strokeLinecap="round"
@@ -22,4 +25,4 @@ export const PlusIcon = (props: IconProps) => {
       />
     </svg>
   );
-};
+}
