@@ -13,7 +13,7 @@ interface ButtonInterface {
 const sizeStyle  = {
     "lg" : "px-8 py-4 text-xl rounded-xl ",
     "md" : "px-4 py-2 text-md rounded-md",
-    "sm" : "px-2 py-1 text-sm rounded-sm",
+    "sm" : "px-2 py-1 text-sm rounded-",
 
 
 }
