@@ -8,7 +8,8 @@ const sizeVariants = {
   lg: 'size-6'
 };
 
-
+export function PlusIcon({ size }: PlusIconProps) {
+  return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
